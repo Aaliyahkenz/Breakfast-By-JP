@@ -1,3 +1,69 @@
-h1 {
-    background-color: fuchsia;
+body {
+    background-color: #f09813;
+    color: #613a3c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.global-header {
+    background-color:burlywood;
+    color: #022c02;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding: 15px 25px;
+    width: calc(100% - 50px);
+}
+
+#top-nav {
+    position: relative;
+}
+
+.nav-left {
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    /* display: none; */
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+}
+
+.restaurant {
+    color:#613a3c;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.extras
+
+.menu-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#toppings {
+    display: flex;
+    padding: 5px;
+    border: solid;
+}
+
