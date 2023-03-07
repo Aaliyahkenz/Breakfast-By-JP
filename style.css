@@ -71,7 +71,8 @@ ul {
 body {
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: midnightblue;
+    color: rgb(245, 228, 180);
+    background-color: midnightblue;
     font-size: larger;
     justify-content: flex-start;
 }
