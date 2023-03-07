@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #f09813;
     color: #613a3c;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,7 +29,7 @@ body {
 }
 
 .nav {
-    /* display: none; */
+    display: none;
     flex-direction: row;
     align-items: center;
     margin: 0;
@@ -65,5 +65,36 @@ ul {
     display: flex;
     padding: 5px;
     border: solid;
+}
+ */
+
+body {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: midnightblue;
+    font-size: larger;
+    justify-content: flex-start;
+}
+
+.navbar-brand {
+    text-decoration: midnightblue underline;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+
+.card-img-top {
+    width: 33%;
+    height: auto;
+    position: relative;
+}
+
+.col img {
+    width: 500px;
+    height: auto;
+    /* justify-content: center;
+    align-content: center; */
 }
 
