@@ -92,6 +92,10 @@ body {
     position: relative;
 }
 
+.col-md-4 {
+    color:saddlebrown;
+}
+
 .col img {
     width: 500px;
     height: 400px;
